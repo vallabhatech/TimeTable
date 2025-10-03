@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Scrollbar Styles - Matching Project Theme */
+@layer base {
+  /* Webkit browsers (Chrome, Safari, Edge) */
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #18181B; /* surface color */
+    border-radius: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #22D3EE; /* accent cyan color */
+    border-radius: 6px;
+    border: 2px solid #18181B; /* surface color */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0EA5E9; /* darker cyan on hover */
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: #18181B; /* surface color */
+  }
+
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #22D3EE #18181B; /* thumb track */
+  }
+
+  /* For elements with overflow scroll */
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: #22D3EE #18181B;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: #18181B;
+    border-radius: 4px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: #22D3EE;
+    border-radius: 4px;
+    border: 1px solid #18181B;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: #0EA5E9;
+  }
+}

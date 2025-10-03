@@ -1,0 +1,25 @@
+{
+  "name": "Timetable Generation System",
+  "short_name": "TimetableGen",
+  "description": "Automated academic timetable generation platform with constraint-based scheduling",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090B",
+  "theme_color": "#22D3EE",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32",
+      "type": "image/x-icon"
+    }
+  ]
+}
+
+
+
