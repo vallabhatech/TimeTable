@@ -1,34 +1,114 @@
-* Total Available Rooms: 13 (4 main building rooms + 6 labs + 3 academic building rooms) 
-* Total Sections: 12 across batches 21SW, 22SW, 23SW, 24SW 
-* Practical Subjects: require exactly 3 consecutive time blocks on the same day for a practical subject 
-
-Room Allocation: 
-
-A. Practical Sessions:
-- Schedule 7 practical sessions (3-block each) across 5 weekdays.
-- There shouldn't be any lab conflict
-- All practical sessions must be in labs
-- All 3 blocks of a practical subject must be in the same lab
 
 
-B. Theory  Allocation 
-- Assign consistent, dedicated rooms to each section for entire day
-- Exception: When section has practical, their regular room can be temporarily reassigned to any other section that doesn't have a practical (but while respecting academic and main building rooms priority based on batch)
-- Assign the theory classes of all sections of 2nd year to academic building rooms. (although their practical must be assigned to labs of main building (Lab 1 - 6))
-- Assign the theory classes of all sections of 1st, 3rd and 4th year to main building rooms (although their practical must be assigned to labs of main building (Lab 1 - 6))
-- Both academic and main building rooms must be utilized (in the order mentioned above)
-- If all rooms are assigned for theory and there is no room left, try to assign the free labs in that case
-- There should not be any room conflict
+# 🏫 Room & Section Allocation Guidelines
 
+## 🔹 Overview
 
-Mandatory Constraints (Zero Violations Required): 
+* **Total Available Rooms:** 13
 
-* No room double-booking at any time slot 
-* No section with multiple simultaneous classes  
-* No teacher assigned to multiple sections simultaneously 
-* Practical subjects must have 3 consecutive blocks in same lab 
-* Respect teacher availability and preferences from dataset 
-* Honor section-specific day availability restrictions  (one room for the entire section for a particular day)
-* If all rooms are assigned for theory and there is no room left, try to assign the free labs in that case
-* Stay within official working hours (8:00 AM to 3:00 PM) 
-* Room re-use only after practical slots are vacated
+  * 4 Main Building rooms
+  * 6 Labs
+  * 3 Academic Building rooms
+* **Total Sections:** 12 across batches 21SW, 22SW, 23SW, 24SW
+* **Practical Subjects:** Require **exactly 3 consecutive time blocks** on the same day in the same lab
+
+---
+
+## 📌 Room Allocation Rules
+
+### A. Practical Sessions
+
+* Schedule **7 practical sessions** (3-block each) across 5 weekdays
+* **No lab conflicts** allowed
+* All practical sessions **must be in labs**
+* All **3 blocks of a practical subject must be in the same lab**
+
+### B. Theory Classes
+
+* Assign **consistent, dedicated rooms** to each section for the entire day
+* **Exception:**
+
+  * If a section has a practical, its regular room can be temporarily reassigned to another section **without practical**, while respecting **priority of academic and main building rooms** based on batch
+* **Year-wise room assignment:**
+
+  * **2nd year sections:** Theory → Academic Building rooms; Practical → Labs of Main Building (Lab 1–6)
+  * **1st, 3rd, and 4th year sections:** Theory → Main Building rooms; Practical → Labs of Main Building (Lab 1–6)
+* Utilize **both academic and main building rooms** in the order mentioned
+* If all rooms are occupied for theory, **assign free labs** if available
+* **No room conflicts** allowed
+
+---
+
+## ✅ Mandatory Constraints (Zero Violations)
+
+1. No room double-booking at any time slot
+2. No section having multiple simultaneous classes
+3. No teacher assigned to multiple sections simultaneously
+4. Practical subjects must occupy **3 consecutive blocks in the same lab**
+5. Respect teacher availability and preferences from dataset
+6. Honor **section-specific day availability** (one room per section per day)
+7. Use free labs only if all theory rooms are assigned
+8. Stay within **official working hours (8:00 AM – 3:00 PM)**
+9. Rooms can be re-used **only after practical slots are vacated**
+
+---
+
+If you want, I can also make a **visual table + color-coded weekly allocation plan** showing **theory vs practical room assignment per section**—makes it super easy to read at a glance.
+
+Do you want me to do that?
+Got you! Here’s your info **cleaned up, structured, and easy to read**:
+
+---
+
+# 🏫 Room & Section Allocation Guidelines
+
+## 🔹 Overview
+
+* **Total Available Rooms:** 13
+
+  * 4 Main Building rooms
+  * 6 Labs
+  * 3 Academic Building rooms
+* **Total Sections:** 12 across batches 21SW, 22SW, 23SW, 24SW
+* **Practical Subjects:** Require **exactly 3 consecutive time blocks** on the same day in the same lab
+
+---
+
+## 📌 Room Allocation Rules
+
+### A. Practical Sessions
+
+* Schedule **7 practical sessions** (3-block each) across 5 weekdays
+* **No lab conflicts** allowed
+* All practical sessions **must be in labs**
+* All **3 blocks of a practical subject must be in the same lab**
+
+### B. Theory Classes
+
+* Assign **consistent, dedicated rooms** to each section for the entire day
+* **Exception:**
+
+  * If a section has a practical, its regular room can be temporarily reassigned to another section **without practical**, while respecting **priority of academic and main building rooms** based on batch
+* **Year-wise room assignment:**
+
+  * **2nd year sections:** Theory → Academic Building rooms; Practical → Labs of Main Building (Lab 1–6)
+  * **1st, 3rd, and 4th year sections:** Theory → Main Building rooms; Practical → Labs of Main Building (Lab 1–6)
+* Utilize **both academic and main building rooms** in the order mentioned
+* If all rooms are occupied for theory, **assign free labs** if available
+* **No room conflicts** allowed
+
+---
+
+## ✅ Mandatory Constraints (Zero Violations)
+
+1. No room double-booking at any time slot
+2. No section having multiple simultaneous classes
+3. No teacher assigned to multiple sections simultaneously
+4. Practical subjects must occupy **3 consecutive blocks in the same lab**
+5. Respect teacher availability and preferences from dataset
+6. Honor **section-specific day availability** (one room per section per day)
+7. Use free labs only if all theory rooms are assigned
+8. Stay within **official working hours (8:00 AM – 3:00 PM)**
+9. Rooms can be re-used **only after practical slots are vacated**
+
+---
