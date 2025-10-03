@@ -1,0 +1,19 @@
+1.  Subject Frequency - Correct number of classes per week based on credit hours with the exception of practical (which is assigned as 3 consecutive blocks on the same day)
+2.  Practical Blocks - 3-hour consecutive blocks for practical subjects
+3.  No Teacher Overlap - Teachers cannot be in multiple places at once
+4.  No Room Conflicts - Rooms cannot be double-booked
+5.  Cross-Semester Conflict Detection - Prevents scheduling conflicts across batches
+6.  Intelligent Teacher Assignment - Matches teachers to their assigned subjects
+7.  Friday Time Limits - Classes must not exceed 12:00/1:00 PM with practical, 11:00 AM without practical
+8.  Minimum Daily Classes - No day has only practical or only one class
+9.  Compact Scheduling - Classes wrap up quickly while respecting Friday constraints
+10. Friday-Aware Scheduling - Monday-Thursday scheduling considers Friday limits proactively
+11. Working Hours  - All classes are within 8:00 AM to 3:00 PM
+12. Thesis Day - Wednesday is exclusively reserved for Thesis subjects for final year students
+13. No Duplicate Theory Per Day - No section can have multiple theory classes of the same subject on the same day (integrated directly into scheduling algorithm for prevention during generation)
+14. Same Lab Rule - All 3 blocks of practical subjects must use the same lab
+15. Practicals in Labs - Practical subjects must be scheduled only in labs
+16. Appropriate Distribution - Classes are spread across all 5 days
+17. Room Consistency - Consistent room assignment for theory classes per section
+18. Section Conflicts - Prevents multiple simultaneous classes for same section
+19. Teacher Unavailability - Teachers cannot be scheduled during their unavailable periods (HARD CONSTRAINT)

@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start:backend": "cd django-backend/backend && python manage.py runserver",
+    "start:frontend": "cd frontend && npm run dev --host",
+    "start": "concurrently -n BACKEND,FRONTEND -c red,cyan \"npm run start:backend\" \"npm run start:frontend\""
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

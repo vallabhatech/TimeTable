@@ -1,0 +1,34 @@
+* Total Available Rooms: 13 (4 main building rooms + 6 labs + 3 academic building rooms) 
+* Total Sections: 12 across batches 21SW, 22SW, 23SW, 24SW 
+* Practical Subjects: require exactly 3 consecutive time blocks on the same day for a practical subject 
+
+Room Allocation: 
+
+A. Practical Sessions:
+- Schedule 7 practical sessions (3-block each) across 5 weekdays.
+- There shouldn't be any lab conflict
+- All practical sessions must be in labs
+- All 3 blocks of a practical subject must be in the same lab
+
+
+B. Theory  Allocation 
+- Assign consistent, dedicated rooms to each section for entire day
+- Exception: When section has practical, their regular room can be temporarily reassigned to any other section that doesn't have a practical (but while respecting academic and main building rooms priority based on batch)
+- Assign the theory classes of all sections of 2nd year to academic building rooms. (although their practical must be assigned to labs of main building (Lab 1 - 6))
+- Assign the theory classes of all sections of 1st, 3rd and 4th year to main building rooms (although their practical must be assigned to labs of main building (Lab 1 - 6))
+- Both academic and main building rooms must be utilized (in the order mentioned above)
+- If all rooms are assigned for theory and there is no room left, try to assign the free labs in that case
+- There should not be any room conflict
+
+
+Mandatory Constraints (Zero Violations Required): 
+
+* No room double-booking at any time slot 
+* No section with multiple simultaneous classes  
+* No teacher assigned to multiple sections simultaneously 
+* Practical subjects must have 3 consecutive blocks in same lab 
+* Respect teacher availability and preferences from dataset 
+* Honor section-specific day availability restrictions  (one room for the entire section for a particular day)
+* If all rooms are assigned for theory and there is no room left, try to assign the free labs in that case
+* Stay within official working hours (8:00 AM to 3:00 PM) 
+* Room re-use only after practical slots are vacated
