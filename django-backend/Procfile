@@ -1,0 +1,1 @@
+web: cd backend && python manage.py migrate && python manage.py collectstatic --noinput && gunicorn backend.wsgi:application --bind 0.0.0.0:$PORT --workers=1 --max-requests=500 --timeout=180 --preload
